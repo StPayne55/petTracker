@@ -47,7 +47,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a4p-rH-x5V">
+                            <view opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a4p-rH-x5V">
                                 <rect key="frame" x="420" y="140" width="315" height="440"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pet's Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ujc-6Q-M3q">
@@ -90,7 +90,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.15201879376375699" green="0.93355429292929282" blue="0.72434050630612989" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="qQt-8S-TIs" secondAttribute="bottom" constant="30" id="6LH-PE-jtx"/>
                                     <constraint firstAttribute="centerX" secondItem="gHY-Zc-UcW" secondAttribute="centerX" constant="-7.5" id="KrS-PL-1yG"/>
@@ -142,7 +142,7 @@
                                         </button>
                                     </subviews>
                                 </view>
-                                <blurEffect style="light"/>
+                                <blurEffect style="extraLight"/>
                             </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>

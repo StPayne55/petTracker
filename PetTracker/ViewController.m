@@ -101,16 +101,15 @@
             
         }else{
             //if the view is loaded and already has pets in the array, show filtering/viewing options...
-            [UIView animateWithDuration:.3
-                             animations:^{
-                                 _optionsView.alpha = 1;
-                                 _addPetButton.center = _addPetButtonRestingLocation.center;
-                                 NSLog(@"%@", NSStringFromCGPoint(CGPointMake(_addPetButton.center.x, _addPetButton.center.y)));
-                                 _optionsView.alpha = 1;
-                                 _optionsView.center = self.view.center;
-                                 _noPetsLabel.alpha = 0;
-                                 _noPetsLabel2.alpha = 0;
-                             }];
+            [UIView animateWithDuration:.3 delay:0 usingSpringWithDamping:.8 initialSpringVelocity:.4 options:0 animations:^{
+                _optionsView.alpha = 1;
+                _addPetButton.center = _addPetButtonRestingLocation.center;
+                _optionsView.alpha = 1;
+                _optionsView.center = self.view.center;
+                _noPetsLabel.alpha = 0;
+                _noPetsLabel2.alpha = 0;
+                
+            }completion:nil];
         }
 }
 
@@ -148,11 +147,11 @@
     [_petsImage.layer setBorderColor: [[UIColor whiteColor] CGColor]];
     [_petsImage.layer setBorderWidth: 2.0];
     
-    //_filterOption = [[NSString alloc]init];
     _addPetButton.center = CGPointMake(self.view.center.x, self.view.center.y);
-    _petNameField.delegate = self;
-    [_petBreedField setDelegate:self];
     
+    //set textfield delegates so delegate methods will be called when interacting with these textfields
+    _petNameField.delegate = self;
+    _petBreedField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -166,12 +165,14 @@
 
 //add pet button pressed
 - (IBAction)addPet:(UIButton *)sender {
-    
+    _addPetButton.alpha=0;
     _petNameField.text = nil;
     _petBreedField.text = nil;
-    _addPetView.alpha = 1;
-    _optionsView.alpha=0;
-    _addPetToArrayButton.enabled=NO;
+    [UIView animateWithDuration:.3 delay:0 usingSpringWithDamping:.8 initialSpringVelocity:.4 options:0 animations:^{
+        _addPetView.alpha = .7;
+        _optionsView.alpha=0;
+        _addPetToArrayButton.enabled=NO;
+    }completion:nil];
 }
 
 //add the created pet to the array of pets
@@ -206,6 +207,8 @@
                          _addPetButton.center = _addPetButtonRestingLocation.center;
                          _optionsView.alpha = 1;
                          _optionsView.center = self.view.center;
+                         _addPetButton.alpha = 1;
+                         
                      }];
 }
 

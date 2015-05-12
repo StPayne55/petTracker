@@ -107,11 +107,6 @@
 				910CD6771AFE919200E945B1 /* ViewController.m */,
 				916676A71AFFA772004545FB /* Main.storyboard */,
 				910CD67C1AFE919200E945B1 /* Images.xcassets */,
-				918FE11D1B00EBC8002BB138 /* minimalistic-gradient_00294789.png */,
-				916676BA1B001722004545FB /* dogecate.tiff */,
-				916676B01AFFBC1D004545FB /* 625x465_2870939_7548194_1430772522.jpg */,
-				916676AE1AFFBB5B004545FB /* Doge.png */,
-				916676AC1AFFBA4F004545FB /* Tumblr_muqhhzROrJ1shlu6yo1_500.png */,
 				910CD67E1AFE919200E945B1 /* LaunchScreen.xib */,
 				910CD66F1AFE919200E945B1 /* Supporting Files */,
 			);
@@ -121,6 +116,11 @@
 		910CD66F1AFE919200E945B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				918FE11D1B00EBC8002BB138 /* minimalistic-gradient_00294789.png */,
+				916676BA1B001722004545FB /* dogecate.tiff */,
+				916676B01AFFBC1D004545FB /* 625x465_2870939_7548194_1430772522.jpg */,
+				916676AE1AFFBB5B004545FB /* Doge.png */,
+				916676AC1AFFBA4F004545FB /* Tumblr_muqhhzROrJ1shlu6yo1_500.png */,
 				910CD6701AFE919200E945B1 /* Info.plist */,
 				910CD6711AFE919200E945B1 /* main.m */,
 			);
