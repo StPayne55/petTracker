@@ -15,17 +15,12 @@
 		910CD68C1AFE919300E945B1 /* PetTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CD68B1AFE919300E945B1 /* PetTrackerTests.m */; };
 		910CD6A31AFE97D400E945B1 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CD6A21AFE97D400E945B1 /* Pet.m */; };
 		916676A91AFFA772004545FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916676A71AFFA772004545FB /* Main.storyboard */; };
-		916676AB1AFFB9BF004545FB /* o-CATS-KILL-BILLIONS-facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 916676AA1AFFB9BF004545FB /* o-CATS-KILL-BILLIONS-facebook.jpg */; };
 		916676AD1AFFBA4F004545FB /* Tumblr_muqhhzROrJ1shlu6yo1_500.png in Resources */ = {isa = PBXBuildFile; fileRef = 916676AC1AFFBA4F004545FB /* Tumblr_muqhhzROrJ1shlu6yo1_500.png */; };
 		916676AF1AFFBB5B004545FB /* Doge.png in Resources */ = {isa = PBXBuildFile; fileRef = 916676AE1AFFBB5B004545FB /* Doge.png */; };
 		916676B11AFFBC1D004545FB /* 625x465_2870939_7548194_1430772522.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 916676B01AFFBC1D004545FB /* 625x465_2870939_7548194_1430772522.jpg */; };
-		916676B31AFFC053004545FB /* AllPets.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 916676B21AFFC053004545FB /* AllPets.tiff */; };
 		916676B91AFFCCA5004545FB /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 916676B81AFFCCA5004545FB /* TableView.m */; };
 		916676BB1B001722004545FB /* dogecate.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 916676BA1B001722004545FB /* dogecate.tiff */; };
-		918FE11C1B00EAF6002BB138 /* IMG_0465.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 918FE11B1B00EAF6002BB138 /* IMG_0465.PNG */; };
 		918FE11E1B00EBC8002BB138 /* minimalistic-gradient_00294789.png in Resources */ = {isa = PBXBuildFile; fileRef = 918FE11D1B00EBC8002BB138 /* minimalistic-gradient_00294789.png */; };
-		918FE1201B00EF8B002BB138 /* blue-gradient-14396.png in Resources */ = {isa = PBXBuildFile; fileRef = 918FE11F1B00EF8B002BB138 /* blue-gradient-14396.png */; };
-		918FE1221B00F06E002BB138 /* custom-blue-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 918FE1211B00F06E002BB138 /* custom-blue-wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,21 +46,16 @@
 		910CD6851AFE919300E945B1 /* PetTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910CD68A1AFE919300E945B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910CD68B1AFE919300E945B1 /* PetTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetTrackerTests.m; sourceTree = "<group>"; };
-		910CD6A11AFE97D400E945B1 /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
-		910CD6A21AFE97D400E945B1 /* Pet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		910CD6A11AFE97D400E945B1 /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pet.h; path = ../Pet.h; sourceTree = "<group>"; };
+		910CD6A21AFE97D400E945B1 /* Pet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pet.m; path = ../Pet.m; sourceTree = "<group>"; };
 		916676A81AFFA772004545FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		916676AA1AFFB9BF004545FB /* o-CATS-KILL-BILLIONS-facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "o-CATS-KILL-BILLIONS-facebook.jpg"; sourceTree = "<group>"; };
 		916676AC1AFFBA4F004545FB /* Tumblr_muqhhzROrJ1shlu6yo1_500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tumblr_muqhhzROrJ1shlu6yo1_500.png; sourceTree = "<group>"; };
 		916676AE1AFFBB5B004545FB /* Doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doge.png; sourceTree = "<group>"; };
 		916676B01AFFBC1D004545FB /* 625x465_2870939_7548194_1430772522.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 625x465_2870939_7548194_1430772522.jpg; sourceTree = "<group>"; };
-		916676B21AFFC053004545FB /* AllPets.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = AllPets.tiff; sourceTree = "<group>"; };
-		916676B71AFFCCA5004545FB /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
-		916676B81AFFCCA5004545FB /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		916676B71AFFCCA5004545FB /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableView.h; path = ../TableView.h; sourceTree = "<group>"; };
+		916676B81AFFCCA5004545FB /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableView.m; path = ../TableView.m; sourceTree = "<group>"; };
 		916676BA1B001722004545FB /* dogecate.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = dogecate.tiff; sourceTree = "<group>"; };
-		918FE11B1B00EAF6002BB138 /* IMG_0465.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0465.PNG; sourceTree = "<group>"; };
 		918FE11D1B00EBC8002BB138 /* minimalistic-gradient_00294789.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimalistic-gradient_00294789.png"; sourceTree = "<group>"; };
-		918FE11F1B00EF8B002BB138 /* blue-gradient-14396.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-gradient-14396.png"; sourceTree = "<group>"; };
-		918FE1211B00F06E002BB138 /* custom-blue-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "custom-blue-wallpaper.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +79,6 @@
 		910CD6631AFE919200E945B1 = {
 			isa = PBXGroup;
 			children = (
-				916676B71AFFCCA5004545FB /* TableView.h */,
-				916676B81AFFCCA5004545FB /* TableView.m */,
-				910CD6A11AFE97D400E945B1 /* Pet.h */,
-				910CD6A21AFE97D400E945B1 /* Pet.m */,
 				910CD66E1AFE919200E945B1 /* PetTracker */,
 				910CD6881AFE919300E945B1 /* PetTrackerTests */,
 				910CD66D1AFE919200E945B1 /* Products */,
@@ -111,16 +97,21 @@
 		910CD66E1AFE919200E945B1 /* PetTracker */ = {
 			isa = PBXGroup;
 			children = (
+				916676B71AFFCCA5004545FB /* TableView.h */,
+				916676B81AFFCCA5004545FB /* TableView.m */,
+				910CD6A11AFE97D400E945B1 /* Pet.h */,
+				910CD6A21AFE97D400E945B1 /* Pet.m */,
 				910CD6731AFE919200E945B1 /* AppDelegate.h */,
 				910CD6741AFE919200E945B1 /* AppDelegate.m */,
 				910CD6761AFE919200E945B1 /* ViewController.h */,
 				910CD6771AFE919200E945B1 /* ViewController.m */,
 				916676A71AFFA772004545FB /* Main.storyboard */,
-				918FE1211B00F06E002BB138 /* custom-blue-wallpaper.jpg */,
-				918FE11F1B00EF8B002BB138 /* blue-gradient-14396.png */,
-				918FE11D1B00EBC8002BB138 /* minimalistic-gradient_00294789.png */,
-				918FE11B1B00EAF6002BB138 /* IMG_0465.PNG */,
 				910CD67C1AFE919200E945B1 /* Images.xcassets */,
+				918FE11D1B00EBC8002BB138 /* minimalistic-gradient_00294789.png */,
+				916676BA1B001722004545FB /* dogecate.tiff */,
+				916676B01AFFBC1D004545FB /* 625x465_2870939_7548194_1430772522.jpg */,
+				916676AE1AFFBB5B004545FB /* Doge.png */,
+				916676AC1AFFBA4F004545FB /* Tumblr_muqhhzROrJ1shlu6yo1_500.png */,
 				910CD67E1AFE919200E945B1 /* LaunchScreen.xib */,
 				910CD66F1AFE919200E945B1 /* Supporting Files */,
 			);
@@ -130,12 +121,6 @@
 		910CD66F1AFE919200E945B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				916676BA1B001722004545FB /* dogecate.tiff */,
-				916676B21AFFC053004545FB /* AllPets.tiff */,
-				916676B01AFFBC1D004545FB /* 625x465_2870939_7548194_1430772522.jpg */,
-				916676AE1AFFBB5B004545FB /* Doge.png */,
-				916676AC1AFFBA4F004545FB /* Tumblr_muqhhzROrJ1shlu6yo1_500.png */,
-				916676AA1AFFB9BF004545FB /* o-CATS-KILL-BILLIONS-facebook.jpg */,
 				910CD6701AFE919200E945B1 /* Info.plist */,
 				910CD6711AFE919200E945B1 /* main.m */,
 			);
@@ -240,17 +225,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				918FE11E1B00EBC8002BB138 /* minimalistic-gradient_00294789.png in Resources */,
-				916676B31AFFC053004545FB /* AllPets.tiff in Resources */,
 				916676B11AFFBC1D004545FB /* 625x465_2870939_7548194_1430772522.jpg in Resources */,
 				916676AF1AFFBB5B004545FB /* Doge.png in Resources */,
-				916676AB1AFFB9BF004545FB /* o-CATS-KILL-BILLIONS-facebook.jpg in Resources */,
-				918FE1221B00F06E002BB138 /* custom-blue-wallpaper.jpg in Resources */,
 				916676BB1B001722004545FB /* dogecate.tiff in Resources */,
 				916676A91AFFA772004545FB /* Main.storyboard in Resources */,
 				916676AD1AFFBA4F004545FB /* Tumblr_muqhhzROrJ1shlu6yo1_500.png in Resources */,
 				910CD6801AFE919200E945B1 /* LaunchScreen.xib in Resources */,
-				918FE1201B00EF8B002BB138 /* blue-gradient-14396.png in Resources */,
-				918FE11C1B00EAF6002BB138 /* IMG_0465.PNG in Resources */,
 				910CD67D1AFE919200E945B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

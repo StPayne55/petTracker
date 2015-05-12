@@ -160,6 +160,7 @@
                         <outlet property="addPetButton" destination="XDN-Dr-R6n" id="pc0-Md-p4A"/>
                         <outlet property="addPetButtonConstraint" destination="nXB-DU-n4m" id="AXa-TP-lX3"/>
                         <outlet property="addPetButtonRestingLocation" destination="i2c-YT-efP" id="Oqi-6N-AJt"/>
+                        <outlet property="addPetToArrayButton" destination="qQt-8S-TIs" id="gQK-5n-Haa"/>
                         <outlet property="addPetView" destination="a4p-rH-x5V" id="Sf3-6i-O3K"/>
                         <outlet property="allDogsButton" destination="fmg-ff-Srp" id="hc9-su-2dm"/>
                         <outlet property="catImage" destination="Ja8-vS-cnU" id="U7N-Qi-gA6"/>
@@ -213,6 +214,46 @@
                                                 <blurEffect style="light"/>
                                             </vibrancyEffect>
                                         </visualEffectView>
+                                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8VD-Tf-OZX">
+                                            <rect key="frame" x="600" y="121" width="246" height="155"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dog's Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwW-fb-jZf">
+                                                    <rect key="frame" x="8" y="8" width="230" height="35"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dog's Breed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46k-D6-VXs">
+                                                    <rect key="frame" x="8" y="51" width="230" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dog's Birthday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQw-N1-31A">
+                                                    <rect key="frame" x="8" y="80" width="230" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpe-SO-IYH">
+                                                    <rect key="frame" x="88" y="109" width="71" height="30"/>
+                                                    <state key="normal" title="Delete Pet">
+                                                        <color key="titleColor" red="0.97357684369999997" green="0.1369388574" blue="0.061206975019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="deletePetButton:" destination="9Py-m7-LBZ" eventType="touchUpInside" id="Pk1-Sg-ja9"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="centerX" secondItem="Mpe-SO-IYH" secondAttribute="centerX" constant="-0.5" id="Adm-ng-j0E"/>
+                                                <constraint firstAttribute="centerX" secondItem="TQw-N1-31A" secondAttribute="centerX" id="jj7-Bg-GD5"/>
+                                                <constraint firstAttribute="centerX" secondItem="46k-D6-VXs" secondAttribute="centerX" id="ol5-OF-t7a"/>
+                                                <constraint firstAttribute="centerX" secondItem="MwW-fb-jZf" secondAttribute="centerX" id="wpL-fR-JfV"/>
+                                            </constraints>
+                                        </view>
                                     </subviews>
                                 </view>
                                 <blurEffect style="light"/>
@@ -264,35 +305,6 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8VD-Tf-OZX">
-                                <rect key="frame" x="600" y="119" width="246" height="145"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dog's Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwW-fb-jZf">
-                                        <rect key="frame" x="8" y="8" width="230" height="35"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dog's Breed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46k-D6-VXs">
-                                        <rect key="frame" x="8" y="57" width="230" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Dog's Birthday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQw-N1-31A">
-                                        <rect key="frame" x="8" y="94" width="230" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="centerX" secondItem="TQw-N1-31A" secondAttribute="centerX" constant="7" id="jj7-Bg-GD5"/>
-                                    <constraint firstAttribute="centerX" secondItem="46k-D6-VXs" secondAttribute="centerX" constant="8" id="ol5-OF-t7a"/>
-                                    <constraint firstAttribute="centerX" secondItem="MwW-fb-jZf" secondAttribute="centerX" id="wpL-fR-JfV"/>
-                                </constraints>
-                            </view>
                             <view alpha="0.0" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="amo-YF-VsN">
                                 <rect key="frame" x="16" y="67" width="215" height="215"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -307,6 +319,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="deletePetButton" destination="Mpe-SO-IYH" id="mQs-Kd-7hO"/>
                         <outlet property="petBirthdateLabel" destination="TQw-N1-31A" id="PAd-Gc-iEi"/>
                         <outlet property="petBreedLabel" destination="46k-D6-VXs" id="CaC-C6-0j5"/>
                         <outlet property="petDetailedView" destination="8VD-Tf-OZX" id="vc5-Of-1v9"/>
@@ -314,6 +327,7 @@
                         <outlet property="petImageDetailLocation" destination="amo-YF-VsN" id="yir-P6-bfO"/>
                         <outlet property="petImageViewContainer" destination="ig9-au-fnp" id="RVa-sR-3Hl"/>
                         <outlet property="petNameLabel" destination="MwW-fb-jZf" id="phU-Zt-cOk"/>
+                        <outlet property="tableView" destination="cdO-cH-5E8" id="EFY-Mg-3zN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ixU-C0-nzf" userLabel="First Responder" sceneMemberID="firstResponder"/>

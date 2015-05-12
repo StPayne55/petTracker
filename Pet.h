@@ -10,11 +10,13 @@
 
 @interface Pet : NSObject
 
-
+//Required attributes for pet object
 @property NSString* name;
 @property NSString* breed;
 @property NSDate* birthdate;
-@property NSString* petType;
 
+//used for convenience in sorting and deletion
+@property NSString* petType;
+@property int spotInArray;
 
 @end
